@@ -1,7 +1,7 @@
 {
   "order": 0,
   "version": 10000,
-  "index_patterns": "suricata-1.0.0-*",
+  "index_patterns": "suricata-0.0.1-*",
   "settings": {
     "index": {
       "number_of_shards": 3,
@@ -507,6 +507,18 @@
               "dynamic": true,
               "type": "object",
               "properties": {
+                "ET.DROPIP": {
+                  "type": "boolean"
+                },
+                "ET.DshieldIP": {
+                  "type": "boolean"
+                },
+                "ET.Evil": {
+                  "type": "boolean"
+                },
+                "ET.TorIP": {
+                  "type": "boolean"
+                },
                 "ET.Zberp": {
                   "type": "boolean"
                 },
