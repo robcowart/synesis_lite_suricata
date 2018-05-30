@@ -1,0 +1,550 @@
+{
+  "order": 0,
+  "version": 10000,
+  "index_patterns": "suricata-1.0.0-*",
+  "settings": {
+    "index": {
+      "number_of_shards": 3,
+      "number_of_replicas": 1,
+      "refresh_interval": "10s",
+      "codec": "best_compression"
+    }
+  },
+  "mappings": {
+    "_default_": {
+      "numeric_detection": true,
+      "dynamic_templates": [
+        {
+          "tcp.ack": {
+            "path_match": "tcp.ack",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.cwr": {
+            "path_match": "tcp.cwr",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.ece": {
+            "path_match": "tcp.ece",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.fin": {
+            "path_match": "tcp.fin",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.psh": {
+            "path_match": "tcp.psh",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.rst": {
+            "path_match": "tcp.rst",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.syn": {
+            "path_match": "tcp.syn",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+        {
+          "tcp.urg": {
+            "path_match": "tcp.urg",
+            "mapping": {
+              "type": "boolean"
+            }
+          }
+        },
+
+        
+        {
+          "string_fields": {
+            "match_mapping_type": "string",
+            "match": "*",
+            "mapping": {
+              "type": "keyword"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "@version": {
+          "type": "keyword"
+        },
+        "alert": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "keyword"
+            },
+            "category": {
+              "type": "keyword"
+            },
+            "gid": {
+              "type": "long"
+            },
+            "rev": {
+              "type": "long"
+            },
+            "severity": {
+              "type": "long"
+            },
+            "signature": {
+              "type": "keyword"
+            },
+            "signature_id": {
+              "type": "long"
+            }
+          }
+        },
+        "app_proto": {
+          "type": "keyword"
+        },
+        "autonomous_system": {
+          "type": "keyword"
+        },
+        "city": {
+          "type": "keyword"
+        },
+        "client_asn": {
+          "type": "long"
+        },
+        "client_autonomous_system": {
+          "type": "keyword"
+        },
+        "client_city": {
+          "type": "keyword"
+        },
+        "client_country": {
+          "type": "keyword"
+        },
+        "client_geo_location": {
+          "type": "geo_point"
+        },
+        "client_hostname": {
+          "type": "keyword"
+        },
+        "client_ip": {
+          "type": "ip"
+        },
+        "country": {
+          "type": "keyword"
+        },
+        "dest_asn": {
+          "type": "long"
+        },
+        "dest_autonomous_system": {
+          "type": "keyword"
+        },
+        "dest_city": {
+          "type": "keyword"
+        },
+        "dest_country": {
+          "type": "keyword"
+        },
+        "dest_geo_location": {
+          "type": "geo_point"
+        },
+        "dest_hostname": {
+          "type": "keyword"
+        },
+        "dest_ip": {
+          "type": "ip"
+        },
+        "dest_port": {
+          "type": "long"
+        },
+        "dest_port_name": {
+          "type": "keyword"
+        },
+        "dest_rep_tags": {
+          "type": "keyword"
+        },
+        "dns": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "long"
+            },
+            "rcode": {
+              "type": "keyword"
+            },
+            "rdata": {
+              "type": "keyword"
+            },
+            "rrname": {
+              "type": "keyword"
+            },
+            "rrtype": {
+              "type": "keyword"
+            },
+            "ttl": {
+              "type": "long"
+            },
+            "tx_id": {
+              "type": "long"
+            },
+            "type": {
+              "type": "keyword"
+            }
+          }
+        },
+        "event": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "host": {
+              "type": "keyword"
+            },
+            "subtype": {
+              "type": "keyword"
+            },
+            "type": {
+              "type": "keyword"
+            }
+          }
+        },
+        "fileinfo": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "filename": {
+              "type": "keyword"
+            },
+            "gaps": {
+              "type": "boolean"
+            },
+            "size": {
+              "type": "long"
+            },
+            "state": {
+              "type": "keyword"
+            },
+            "stored": {
+              "type": "boolean"
+            },
+            "tx_id": {
+              "type": "long"
+            }
+          }
+        },
+        "flow": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "age": {
+              "type": "long"
+            },
+            "alerted": {
+              "type": "boolean"
+            },
+            "bytes": {
+              "type": "long"
+            },
+            "bytes_toclient": {
+              "type": "long"
+            },
+            "bytes_toserver": {
+              "type": "long"
+            },
+            "end": {
+              "type": "date"
+            },
+            "pkts": {
+              "type": "long"
+            },
+            "pkts_toclient": {
+              "type": "long"
+            },
+            "pkts_toserver": {
+              "type": "long"
+            },
+            "reason": {
+              "type": "keyword"
+            },
+            "start": {
+              "type": "date"
+            },
+            "state": {
+              "type": "keyword"
+            }
+          }
+        },
+        "flow_id": {
+          "type": "long"
+        },
+        "http": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "hostname": {
+              "type": "keyword"
+            },
+            "http_content_type": {
+              "type": "keyword"
+            },
+            "http_method": {
+              "type": "keyword"
+            },
+            "http_refer": {
+              "type": "keyword"
+            },
+            "http_user_agent": {
+              "type": "keyword"
+            },
+            "length": {
+              "type": "long"
+            },
+            "protocol": {
+              "type": "keyword"
+            },
+            "redirect": {
+              "type": "keyword"
+            },
+            "status": {
+              "type": "long"
+            },
+            "url": {
+              "type": "keyword"
+            },
+            "xff": {
+              "type": "keyword"
+            }
+          }
+        },
+        "icmp_code": {
+          "type": "long"
+        },
+        "icmp_type": {
+          "type": "long"
+        },
+        "in_iface": {
+          "type": "keyword"
+        },
+        "ip_version": {
+          "type": "keyword"
+        },
+        "log": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "message": {
+              "type": "keyword"
+            },
+            "severity": {
+              "type": "keyword"
+            },
+            "tags": {
+              "type": "keyword"
+            }
+          }
+        },
+        "node": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "ipaddr": {
+              "type": "ip"
+            },
+            "hostname": {
+              "type": "keyword"
+            }
+          }
+        },
+        "proto": {
+          "type": "keyword"
+        },
+        "rep_tags": {
+          "type": "keyword"
+        },
+        "server_asn": {
+          "type": "long"
+        },
+        "server_autonomous_system": {
+          "type": "keyword"
+        },
+        "server_city": {
+          "type": "keyword"
+        },
+        "server_country": {
+          "type": "keyword"
+        },
+        "server_geo_location": {
+          "type": "geo_point"
+        },
+        "server_hostname": {
+          "type": "keyword"
+        },
+        "server_ip": {
+          "type": "ip"
+        },
+        "service_name": {
+          "type": "keyword"
+        },
+        "service_port": {
+          "type": "long"
+        },
+        "src_asn": {
+          "type": "long"
+        },
+        "src_autonomous_system": {
+          "type": "keyword"
+        },
+        "src_city": {
+          "type": "keyword"
+        },
+        "src_country": {
+          "type": "keyword"
+        },
+        "src_geo_location": {
+          "type": "geo_point"
+        },
+        "src_hostname": {
+          "type": "keyword"
+        },
+        "src_ip": {
+          "type": "ip"
+        },
+        "src_port": {
+          "type": "long"
+        },
+        "src_port_name": {
+          "type": "keyword"
+        },
+        "src_rep_tags": {
+          "type": "keyword"
+        },
+        "tcp": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "ecn": {
+              "type": "boolean"
+            },
+            "state": {
+              "type": "keyword"
+            },
+            "tcp_flags": {
+              "type": "keyword"
+            },
+            "tcp_flags_tc": {
+              "type": "keyword"
+            },
+            "tcp_flags_ts": {
+              "type": "keyword"
+            }
+          }
+        },
+        "tls": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "fingerprint": {
+              "type": "keyword"
+            },
+            "issuerdn": {
+              "type": "keyword"
+            },
+            "notafter": {
+              "type": "date"
+            },
+            "notbefore": {
+              "type": "date"
+            },
+            "serial": {
+              "type": "keyword"
+            },
+            "session_resumed": {
+              "type": "boolean"
+            },
+            "sni": {
+              "type": "keyword"
+            },
+            "subject": {
+              "type": "keyword"
+            },
+            "version": {
+              "type": "keyword"
+            }
+          }
+        },
+        "tx_id": {
+          "type": "long"
+        },
+        "vars": {
+          "dynamic": true,
+          "type": "object",
+          "properties": {
+            "flowbits": {
+              "dynamic": true,
+              "type": "object",
+              "properties": {
+                "ET.Zberp": {
+                  "type": "boolean"
+                },
+                "http.dottedquadhost": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "flowints": {
+              "dynamic": true,
+              "type": "object",
+              "properties": {
+                "applayer.anomaly.count": {
+                  "type": "long"
+                },
+                "http.anomaly.count": {
+                  "type": "long"
+                },
+                "tcp.retransmission.count": {
+                  "type": "long"
+                },
+                "tls.anomaly.count": {
+                  "type": "long"
+                }
+              }
+            }
+          }
+        },
+        "vlan": {
+          "type": "keyword"
+        },
+        "tags": {
+          "type": "keyword"
+        },
+        "traffic_locality": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
