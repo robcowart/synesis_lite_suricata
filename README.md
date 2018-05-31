@@ -12,11 +12,13 @@ sýnesis&trade; Lite for Suricata is a solution for the collection and analysis 
 ## Suricata
 An example configuration for the Suricata eve output is provided in `suricata/suricata.yml`.
 
-## 
+## Filebeat
 As Suricata is usually run on one or more Linux servers, the solution includes both Filebeat and Logstash. Filebeat is used to collect the log data on the system where Suricata is running, and ships it to Logstash via the Beats input. An example Filebeat prospector configuration is included in `filebeat/filebeat.yml`.
 
-The Logstash pipeline is complete and fully functional.
+## Logstash
+The Logstash pipeline is complete and fully functional. (Setup is similar to [ElastiFlow&trade;](https://github.com/robcowart/elastiflow))
 
+## Kibana
 Dashboards for alerts and flow logs are also complete and functional. Still on the to-do list are the dashboards for HTTP, DNS and statistics logs.
 
 Kibana index patterns can be imported with the following commands:
@@ -29,7 +31,7 @@ curl -X POST -u USERNAME:PASSWORD http://KIBANASERVER:5601/api/saved_objects/ind
 
 Kibana dashboards can be imported in the Kibana `Management` app under `Saved Objects`.
 
-If you have any feedback, please open an issue and share it.
+**If you have any feedback, please open an issue and share it.**
 
 # Attribution
 This product includes GeoLite data created by MaxMind, available from (http://www.maxmind.com)
