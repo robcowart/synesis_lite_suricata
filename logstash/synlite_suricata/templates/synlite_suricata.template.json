@@ -524,6 +524,9 @@
                 },
                 "http.dottedquadhost": {
                   "type": "boolean"
+                },
+                "tcp.retransmission.alerted": {
+                  "type": "boolean"
                 }
               }
             },

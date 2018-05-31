@@ -15,8 +15,6 @@
 # Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-name: filebeat
-
 filebeat.prospectors:
 - type: log
   enabled: true
@@ -27,7 +25,7 @@ filebeat.prospectors:
     event.type: suricata
 
 output.logstash:
-  hosts: ["192.168.1.45:5044"]
+  hosts: ["127.0.0.1:5044"]
   #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
   #ssl.certificate: "/etc/pki/client/cert.pem"
   #ssl.key: "/etc/pki/client/cert.key"
