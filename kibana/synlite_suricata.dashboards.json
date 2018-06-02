@@ -228,32 +228,13 @@
     }
   },
   {
-    "_id": "e43a5af0-6695-11e8-a67b-cd4cf123b2a5",
+    "_id": "61eb53a0-6696-11e8-a67b-cd4cf123b2a5",
     "_type": "dashboard",
     "_source": {
-      "title": "Suricata: HTTP",
+      "title": "Suricata: Statistics",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"06c92320-6697-11e8-a67b-cd4cf123b2a5\"}]",
-      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "01eff230-6696-11e8-a67b-cd4cf123b2a5",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Suricata: DNS",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"\",\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"804bdb70-6697-11e8-a67b-cd4cf123b2a5\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -285,13 +266,32 @@
     }
   },
   {
-    "_id": "61eb53a0-6696-11e8-a67b-cd4cf123b2a5",
+    "_id": "01eff230-6696-11e8-a67b-cd4cf123b2a5",
     "_type": "dashboard",
     "_source": {
-      "title": "Suricata: Statistics",
+      "title": "Suricata: DNS",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"804bdb70-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"\",\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e43a5af0-6695-11e8-a67b-cd4cf123b2a5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Suricata: HTTP",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"06c92320-6697-11e8-a67b-cd4cf123b2a5\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -2096,40 +2096,6 @@
     }
   },
   {
-    "_id": "0feaddf0-644d-11e8-9e8d-39632dc6b766",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Flow - VLANs (bytes) - donut",
-      "visState": "{\"title\":\"Suricata: Flow - VLANs (bytes) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes\",\"customLabel\":\"Bytes\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"vlan\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":true,\"missingBucketLabel\":\"0\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"VLAN\"}}]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Flow\",\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"flow\",\"params\":{\"query\":\"flow\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"flow\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "10544520-64b0-11e8-9e8d-39632dc6b766",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Alerts by Severity - TSVB (stacked bar)",
-      "visState": "{\"title\":\"Suricata: Alerts by Severity - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 to *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
     "_id": "e5cc0520-64ed-11e8-9e8d-39632dc6b766",
     "_type": "visualization",
     "_source": {
@@ -2572,23 +2538,6 @@
     }
   },
   {
-    "_id": "403194e0-6678-11e8-a67b-cd4cf123b2a5",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
-      "visState": "{\"title\":\"Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 to *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND NOT client_autonomous_system: private\"},\"aggs\":[]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
     "_id": "34f22930-665c-11e8-a67b-cd4cf123b2a5",
     "_type": "visualization",
     "_source": {
@@ -2667,23 +2616,6 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Alert\",\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"alert\",\"params\":{\"query\":\"alert\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"alert\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"suricata-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "de726490-6691-11e8-a67b-cd4cf123b2a5",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
-      "visState": "{\"title\":\"Suricata: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 to *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND server_autonomous_system: private\"},\"aggs\":[]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{}"
       }
     },
     "_meta": {
@@ -2820,23 +2752,6 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"Alert\",\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"alert\",\"params\":{\"query\":\"alert\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"alert\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"suricata-*\",\"negate\":true,\"disabled\":false,\"alias\":\"Private\",\"type\":\"phrase\",\"key\":\"client_autonomous_system\",\"value\":\"private\",\"params\":{\"query\":\"private\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"client_autonomous_system\":{\"query\":\"private\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "0905a270-6693-11e8-a67b-cd4cf123b2a5",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)",
-      "visState": "{\"title\":\"Suricata: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 to *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND client_autonomous_system: private AND NOT server_autonomous_system: private\"},\"aggs\":[]}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{}"
       }
     },
     "_meta": {
@@ -3109,6 +3024,91 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "403194e0-6678-11e8-a67b-cd4cf123b2a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND NOT client_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "de726490-6691-11e8-a67b-cd4cf123b2a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Threat (At-Risk Servers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0905a270-6693-11e8-a67b-cd4cf123b2a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Threat (High-Risk Clients) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND client_autonomous_system: private AND NOT server_autonomous_system: private\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "10544520-64b0-11e8-9e8d-39632dc6b766",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Alerts by Severity - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Alerts by Severity - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0feaddf0-644d-11e8-9e8d-39632dc6b766",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Flow - VLANs (bytes) - donut",
+      "visState": "{\"title\":\"Suricata: Flow - VLANs (bytes) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes\",\"customLabel\":\"Bytes\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"vlan\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"VLAN\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
       }
     },
     "_meta": {
