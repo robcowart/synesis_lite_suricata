@@ -253,7 +253,7 @@
       "title": "Suricata: Raw Logs",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"6b78bdd0-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"6b78bdd0-6697-11e8-a67b-cd4cf123b2a5\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"45775610-6a65-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"d7e3e230-6a64-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"6\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"299c4b30-6a65-11e8-82af-6743288b8baf\"},{\"title\":\"\",\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":3,\"w\":10,\"h\":6,\"i\":\"7\"},\"version\":\"6.2.4\",\"type\":\"search\",\"id\":\"8679ce00-6a69-11e8-82af-6743288b8baf\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -266,13 +266,13 @@
     }
   },
   {
-    "_id": "01eff230-6696-11e8-a67b-cd4cf123b2a5",
+    "_id": "b0662710-6a76-11e8-82af-6743288b8baf",
     "_type": "dashboard",
     "_source": {
-      "title": "Suricata: DNS",
+      "title": "Suricata: HTTP (Messages)",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"\",\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"06c92320-6697-11e8-a67b-cd4cf123b2a5\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"7e0349b0-6a76-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"18b9c380-6a77-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"516a73a0-6a7c-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"7\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"1bfd1560-6a7c-11e8-82af-6743288b8baf\"},{\"title\":\"\",\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":10,\"h\":6,\"i\":\"8\"},\"version\":\"6.2.4\",\"type\":\"search\",\"id\":\"e914b550-6a70-11e8-82af-6743288b8baf\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -288,10 +288,48 @@
     "_id": "e43a5af0-6695-11e8-a67b-cd4cf123b2a5",
     "_type": "dashboard",
     "_source": {
-      "title": "Suricata: HTTP",
+      "title": "Suricata: HTTP (Overview)",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"06c92320-6697-11e8-a67b-cd4cf123b2a5\"}]",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"06c92320-6697-11e8-a67b-cd4cf123b2a5\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"4\"},\"id\":\"56dd50b0-6a76-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"5\"},\"id\":\"18b9c380-6a77-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":8,\"y\":3,\"w\":3,\"h\":2,\"i\":\"7\"},\"id\":\"053f5dc0-6445-11e8-9e8d-39632dc6b766\",\"title\":\"Referrers (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":8,\"y\":7,\"w\":3,\"h\":2,\"i\":\"8\"},\"id\":\"d28d4ef0-6444-11e8-9e8d-39632dc6b766\",\"title\":\"Content Types (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":5,\"y\":7,\"w\":3,\"h\":2,\"i\":\"9\"},\"id\":\"ed12dbf0-6444-11e8-9e8d-39632dc6b766\",\"title\":\"Methods (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":2,\"i\":\"10\"},\"id\":\"a6582b70-6444-11e8-9e8d-39632dc6b766\",\"title\":\"HTTP Servers (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":5,\"y\":5,\"w\":3,\"h\":2,\"i\":\"13\"},\"id\":\"01656eb0-6a76-11e8-82af-6743288b8baf\",\"title\":\"User Applications (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":2,\"y\":5,\"w\":3,\"h\":2,\"i\":\"14\"},\"id\":\"f0410130-6a75-11e8-82af-6743288b8baf\",\"title\":\"User Devices (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"15\",\"gridData\":{\"x\":8,\"y\":5,\"w\":3,\"h\":2,\"i\":\"15\"},\"id\":\"16ff10a0-6a76-11e8-82af-6743288b8baf\",\"title\":\"User Operating Systems (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"18\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":2,\"i\":\"18\"},\"id\":\"840dd940-6a78-11e8-82af-6743288b8baf\",\"title\":\"HTTP Clients (records)\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"19\",\"gridData\":{\"x\":2,\"y\":7,\"w\":3,\"h\":2,\"i\":\"19\"},\"title\":\"HTTP Versions (records)\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"7315a700-6445-11e8-9e8d-39632dc6b766\"},{\"panelIndex\":\"20\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"20\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"bb519670-6a7e-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"21\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"21\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"9fc6f580-6a7e-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"22\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"22\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"187df960-6a7f-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"23\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"23\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"ac9f6170-6a7e-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"24\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"24\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"de04cc00-6a7e-11e8-82af-6743288b8baf\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "5167d760-6a83-11e8-82af-6743288b8baf",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Suricata: DNS (Messages)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"9ee75900-6a80-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"5\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"7e0349b0-6a76-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"6\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"d75ca340-6a84-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":4,\"y\":1,\"w\":8,\"h\":2,\"i\":\"7\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"bfdf9b50-6a84-11e8-82af-6743288b8baf\"},{\"title\":\"\",\"panelIndex\":\"8\",\"gridData\":{\"x\":2,\"y\":3,\"w\":10,\"h\":6,\"i\":\"8\"},\"version\":\"6.2.4\",\"type\":\"search\",\"id\":\"275fa0a0-6a70-11e8-82af-6743288b8baf\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "01eff230-6696-11e8-a67b-cd4cf123b2a5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Suricata: DNS (Overview)",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"id\":\"9ee75900-6a80-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"5\"},\"id\":\"a5068c90-6a83-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Message Type (records)\",\"panelIndex\":\"6\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":2,\"i\":\"6\"},\"id\":\"f35dd740-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Record Type (records)\",\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":5,\"w\":3,\"h\":2,\"i\":\"7\"},\"id\":\"b3efe530-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Response Codes (records)\",\"panelIndex\":\"8\",\"gridData\":{\"x\":5,\"y\":5,\"w\":3,\"h\":2,\"i\":\"8\"},\"id\":\"3cf97d10-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Servers (records)\",\"panelIndex\":\"10\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":2,\"i\":\"10\"},\"id\":\"a2388d90-6a85-11e8-82af-6743288b8baf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":6,\"i\":\"11\"},\"id\":\"f7317b90-6a85-11e8-82af-6743288b8baf\",\"title\":\"Top Queries\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"12\"},\"id\":\"16650ad0-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"13\"},\"id\":\"21df6d60-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"14\"},\"id\":\"484fd200-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"16\"},\"id\":\"3127a0d0-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"17\"},\"id\":\"0223fe90-6a88-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -355,6 +393,92 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"suricata-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Alert\",\"disabled\":false,\"index\":\"suricata-*\",\"key\":\"event.subtype\",\"negate\":false,\"params\":{\"query\":\"alert\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"alert\"},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"alert\",\"type\":\"phrase\"}}}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "8679ce00-6a69-11e8-82af-6743288b8baf",
+    "_type": "search",
+    "_source": {
+      "title": "Suricata: Logs (all)",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "node.hostname",
+        "log.severity",
+        "event.subtype",
+        "client_hostname",
+        "server_hostname",
+        "service_name",
+        "flow.bytes",
+        "flow.pkts"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "275fa0a0-6a70-11e8-82af-6743288b8baf",
+    "_type": "search",
+    "_source": {
+      "title": "Suricata: Logs (dns)",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "client_hostname",
+        "server_hostname",
+        "dns.type",
+        "dns.rrname",
+        "dns.rcode",
+        "dns.rrtype",
+        "dns.rdata"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"DNS\",\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"dns\",\"params\":{\"query\":\"dns\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"dns\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e914b550-6a70-11e8-82af-6743288b8baf",
+    "_type": "search",
+    "_source": {
+      "title": "Suricata: Logs (http)",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "client_hostname",
+        "http.http_method",
+        "http.hostname",
+        "http.url",
+        "http.status"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"HTTP\",\"disabled\":false,\"index\":\"suricata-*\",\"key\":\"event.subtype\",\"negate\":false,\"params\":{\"query\":\"http\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"http\"},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"http\",\"type\":\"phrase\"}}}}]}"
       }
     },
     "_meta": {
@@ -1064,23 +1188,6 @@
     "_source": {
       "title": "Suricata: Top HTTP Servers - table",
       "visState": "{\"title\":\"Suricata: Top HTTP Servers - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"http.hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"HTTP Server\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes\",\"customLabel\":\"Bytes\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.pkts\",\"customLabel\":\"Packets\"}}]}",
-      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
-    "_id": "63e455f0-6450-11e8-9e8d-39632dc6b766",
-    "_type": "visualization",
-    "_source": {
-      "title": "Suricata: Top DNS Queries - table",
-      "visState": "{\"title\":\"Suricata: Top DNS Queries - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"dns.rrname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"DNS Query\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes\",\"customLabel\":\"Bytes\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.pkts\",\"customLabel\":\"Packets\"}}]}",
       "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
       "description": "",
       "version": 1,
@@ -3082,11 +3189,62 @@
     }
   },
   {
+    "_id": "d7e3e230-6a64-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Log Count - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: Log Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Logs\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":null,\"opperator\":\"gte\"}],\"filter\":\"\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
     "_id": "10544520-64b0-11e8-9e8d-39632dc6b766",
     "_type": "visualization",
     "_source": {
       "title": "Suricata: Alerts by Severity - TSVB (stacked bar)",
       "visState": "{\"title\":\"Suricata: Alerts by Severity - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "45775610-6a65-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Logs - input list",
+      "visState": "{\"title\":\"Suricata: Logs - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":200,\"order\":\"desc\"}},{\"id\":\"1527751977828\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"event.subtype\",\"label\":\"Log Type\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":50,\"order\":\"desc\"}},{\"id\":\"1527742882773\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527742906725\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527742928304\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1527752158563\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"alert.category\",\"label\":\"Alert Category\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1527752214385\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"alert.signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527752383061\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "299c4b30-6a65-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Logs by Type - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Logs by Type - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"55201580-6a64-11e8-88f6-3b2470bbb1c6\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55201581-6a64-11e8-88f6-3b2470bbb1c6\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"0.8\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\"},\"aggs\":[]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
@@ -3109,6 +3267,499 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "16ff10a0-6a76-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP User Operating Systems (records) - donut",
+      "visState": "{\"title\":\"Suricata: HTTP User Operating Systems (records) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http.useragent_os\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Operating System\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "01656eb0-6a76-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP User Applications (records) - donut",
+      "visState": "{\"title\":\"Suricata: HTTP User Applications (records) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http.useragent_app\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Application\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f0410130-6a75-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP User Devices (records) - donut",
+      "visState": "{\"title\":\"Suricata: HTTP User Devices (records) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"http.useragent_device\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Device\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "516a73a0-6a7c-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Count - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Logs\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":null,\"opperator\":\"gte\"}],\"filter\":\"_exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "840dd940-6a78-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Clients (records) - donut",
+      "visState": "{\"title\":\"Suricata: HTTP Clients (records) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"client_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Client\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"HTTP\",\"type\":\"exists\",\"key\":\"http.hostname\",\"value\":\"exists\"},\"exists\":{\"field\":\"http.hostname\"},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1bfd1560-6a7c-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Logs by HTTP Server - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Logs by HTTP Server - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"55201580-6a64-11e8-88f6-3b2470bbb1c6\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55201581-6a64-11e8-88f6-3b2470bbb1c6\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"0.8\",\"stacked\":\"none\",\"terms_field\":\"http.hostname\",\"terms_size\":\"50\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"_exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "18b9c380-6a77-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP - input list",
+      "visState": "{\"title\":\"Suricata: HTTP - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":200,\"order\":\"desc\"}},{\"id\":\"1527742882773\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527742906725\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"http.hostname\",\"label\":\"HTTP Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527742928304\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"http.http_refer\",\"label\":\"Referrer\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"}},{\"id\":\"1527752158563\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"alert.category\",\"label\":\"Alert Category\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}},{\"id\":\"1527752214385\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"alert.signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527752383061\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "de04cc00-6a7e-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Reputation Count - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Reputation Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Bad IP Rep\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(0,98,177,1)\",\"opperator\":\"gte\"}],\"filter\":\"_exists_: rep_tags AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9fc6f580-6a7e-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Alert Count (critical) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Alert Count (critical) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Critical\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 2 AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ac9f6170-6a7e-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Alert Count (warning) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Alert Count (warning) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Warning\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(0,156,224,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 3 AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "bb519670-6a7e-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Alert Count (alert) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Alert Count (alert) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Alert\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(244,78,59,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 1 AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9ee75900-6a80-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS - input list",
+      "visState": "{\"title\":\"Suricata: DNS - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":200,\"order\":\"desc\"}},{\"id\":\"1527742882773\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1527742906725\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528397010577\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"dns.type\",\"label\":\"Message Type\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":5,\"order\":\"desc\"}},{\"id\":\"1527752158563\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"dns.rrname\",\"label\":\"Query\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"}},{\"id\":\"1528396812665\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"dns.rrtype\",\"label\":\"Record Type\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}},{\"id\":\"1528396965364\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"dns.rcode\",\"label\":\"Response Code\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":20,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "d75ca340-6a84-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Count - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Logs\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":null,\"opperator\":\"gte\"}],\"filter\":\"event.subtype: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "63e455f0-6450-11e8-9e8d-39632dc6b766",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Top DNS Queries - table",
+      "visState": "{\"title\":\"Suricata: Top DNS Queries - table\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"dns.rrname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":99,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"DNS Query\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "bfdf9b50-6a84-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Logs by DNS Server - TSVB (stacked bar)",
+      "visState": "{\"title\":\"Suricata: Logs by DNS Server - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"55201580-6a64-11e8-88f6-3b2470bbb1c6\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55201581-6a64-11e8-88f6-3b2470bbb1c6\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"0.8\",\"stacked\":\"none\",\"terms_field\":\"server_hostname\",\"terms_size\":\"50\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"event.subtype: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "97e90150-6a83-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: NAV: DNS (messages) - markdown",
+      "visState": "{\"title\":\"Suricata: NAV: DNS (messages) - markdown\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Overview](#/dashboard/01eff230-6696-11e8-a67b-cd4cf123b2a5) | [**Messages**](#/dashboard/5167d760-6a83-11e8-82af-6743288b8baf)\\n![](http://www.koiossian.com/public/suricata.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a5068c90-6a83-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: NAV: DNS (overview) - markdown",
+      "visState": "{\"title\":\"Suricata: NAV: DNS (overview) - markdown\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[**Overview**](#/dashboard/01eff230-6696-11e8-a67b-cd4cf123b2a5) | [Messages](#/dashboard/5167d760-6a83-11e8-82af-6743288b8baf)\\n![](http://www.koiossian.com/public/suricata.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "7e0349b0-6a76-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: NAV: HTTP (messages) - markdown",
+      "visState": "{\"title\":\"Suricata: NAV: HTTP (messages) - markdown\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[Overview](#/dashboard/01eff230-6696-11e8-a67b-cd4cf123b2a5) | [**Messages**](#/dashboard/b0662710-6a76-11e8-82af-6743288b8baf)\\n![](http://www.koiossian.com/public/suricata.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "56dd50b0-6a76-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: NAV: HTTP (overview) - markdown",
+      "visState": "{\"title\":\"Suricata: NAV: HTTP (overview) - markdown\",\"type\":\"markdown\",\"params\":{\"fontSize\":11,\"markdown\":\"[**Overview**](#/dashboard/e43a5af0-6695-11e8-a67b-cd4cf123b2a5) | [Messages](#/dashboard/b0662710-6a76-11e8-82af-6743288b8baf)\\n![](http://www.koiossian.com/public/suricata.gif)\\n***\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "97fc1750-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Alert Count (notice) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Alert Count (notice) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Notice\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(171,20,158,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 4 AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "21df6d60-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Alert Count (critical) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Alert Count (critical) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Critical\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(254,146,0,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 2 AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f7317b90-6a85-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Top Queries - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Top Queries - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"top_n\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"dns.rrname\",\"terms_size\":\"100\",\"label\":\"Logs\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":null,\"opperator\":\"gte\"}],\"filter\":\"event.subtype: dns AND dns.type: query\",\"bar_color_rules\":[{\"id\":\"c44cc400-6a85-11e8-bc55-f77f08ab5af7\"}]},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "484fd200-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Alert Count (warning) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Alert Count (warning) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Warning\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(0,156,224,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 3 AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b9470a50-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Alert Count (notice) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Alert Count (notice) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Notice\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(171,20,158,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 4 AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "16650ad0-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Alert Count (alert) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Alert Count (alert) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Alert\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(244,78,59,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: 1 AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a2388d90-6a85-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Servers (records) - donut",
+      "visState": "{\"title\":\"Suricata: DNS Servers (records) - donut\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Records\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"server_hostname\",\"otherBucket\":true,\"otherBucketLabel\":\"other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"DNS Server\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"suricata-*\",\"filter\":[{\"meta\":{\"index\":\"suricata-*\",\"negate\":false,\"disabled\":false,\"alias\":\"DNS\",\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"dns\",\"params\":{\"query\":\"dns\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"dns\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "187df960-6a7f-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: HTTP Alert Count (other) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: HTTP Alert Count (other) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Other\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(123,100,255,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: [4 TO *] AND _exists_: http.hostname\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "0223fe90-6a88-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Reputation Count - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Reputation Count - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Bad IP Rep\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(0,98,177,1)\",\"opperator\":\"gte\"}],\"filter\":\"_exists_: rep_tags AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3127a0d0-6a87-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: DNS Alert Count (other) - TSVB (metric)",
+      "visState": "{\"title\":\"Suricata: DNS Alert Count (other) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Other\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(123,100,255,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: [4 TO *] AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
       }
     },
     "_meta": {

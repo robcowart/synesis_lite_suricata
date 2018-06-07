@@ -1,7 +1,7 @@
 {
   "order": 0,
   "version": 10000,
-  "index_patterns": "suricata-0.0.2-*",
+  "index_patterns": "suricata-0.0.3-*",
   "settings": {
     "index": {
       "number_of_shards": 3,
@@ -336,6 +336,21 @@
               "type": "long"
             },
             "url": {
+              "type": "keyword"
+            },
+            "useragent_app": {
+              "type": "keyword"
+            },
+            "useragent_app_ver": {
+              "type": "keyword"
+            },
+            "useragent_device": {
+              "type": "keyword"
+            },
+            "useragent_os": {
+              "type": "keyword"
+            },
+            "useragent_os_ver": {
               "type": "keyword"
             },
             "xff": {
