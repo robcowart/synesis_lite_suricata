@@ -3,7 +3,7 @@ sýnesis&trade; Lite for Suricata provides basic log analytics for Suricata IDS/
 
 <img width="1163" alt="synesis_lite_suricata" src="https://user-images.githubusercontent.com/10326954/40805451-99e3f6e6-651e-11e8-9559-8e4535cd9b2c.png">
 
-# Your feedback is welcome.
+# PRE-RELEASE - Your feedback is welcome.
 
 > This readme will be expanded upon, however it follows the same deployment method as [ElastiFlow&trade;](https://github.com/robcowart/elastiflow). If you review that readme, you should be able deploy this solution.
 
