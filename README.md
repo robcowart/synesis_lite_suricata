@@ -126,12 +126,13 @@ You should now be able to start Logstash and begin collecting network flow data.
 2. Run `systemctl start logstash`
 > NOTICE! Make sure that you have already setup the Logstash init files by running `LS_HOME/bin/system-install`. If the init files have not been setup you will receive an error.
 To follow along as Logstash starts you can tail its log by running:
+
 ```
 tail -f /var/log/logstash/logstash-plain.log
 ```
 Logstash takes a little time to start... BE PATIENT!
 
-Logstash setup is now complete. If you are receiving data from Filebeat, you should have both `suricata-` and `suricata-stats` daily indices in Elasticsearch.
+Logstash setup is now complete. If you are receiving data from Filebeat, you should have both `suricata-` and `suricata-stats-` daily indices in Elasticsearch.
 
 ## Setting up Kibana
 An API (yet undocumented) is available to import and export Index Patterns. The JSON files which contains the Index Pattern configurations are `synlite_suricata.index_pattern.json` and `synlite_suricata_stats.index_pattern.json`. To setup the Index Patterns run the following commands:
@@ -201,16 +202,16 @@ The following dashboards are provided.
 ### HTTP - Messages
 ![suricata_http_messages](https://user-images.githubusercontent.com/10326954/41160770-f327274c-6b30-11e8-9c30-33a6a552878c.png)
 
-### HTTP - Overview
+### DNS - Overview
 ![suricata_dns_overview](https://user-images.githubusercontent.com/10326954/41160779-f47b45ec-6b30-11e8-872c-0bd1f16f0991.png)
 
-### HTTP - Messages
+### DNS - Messages
 ![suricata_dns_messages](https://user-images.githubusercontent.com/10326954/41160781-f4b413b8-6b30-11e8-8e9b-1574873f99f2.png)
 
-### HTTP - Raw Logs
+### Raw Logs
 ![suricata_raw_logs](https://user-images.githubusercontent.com/10326954/41160775-f3963448-6b30-11e8-8d16-22cbe71b80e3.png)
 
-### HTTP - Statistics
+### Statistics
 ![suricata_stats](https://user-images.githubusercontent.com/10326954/41160776-f3ceb138-6b30-11e8-8baa-189b8c7cdee5.png)
 
 # Environment Variable Reference
