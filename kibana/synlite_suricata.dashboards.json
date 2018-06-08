@@ -228,25 +228,6 @@
     }
   },
   {
-    "_id": "61eb53a0-6696-11e8-a67b-cd4cf123b2a5",
-    "_type": "dashboard",
-    "_source": {
-      "title": "Suricata: Statistics",
-      "hits": 0,
-      "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":1,\"i\":\"3\"},\"title\":\"\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"804bdb70-6697-11e8-a67b-cd4cf123b2a5\"}]",
-      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
-      "version": 1,
-      "timeRestore": false,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
-      }
-    },
-    "_meta": {
-      "savedObjectVersion": 2
-    }
-  },
-  {
     "_id": "3f15a1f0-6696-11e8-a67b-cd4cf123b2a5",
     "_type": "dashboard",
     "_source": {
@@ -330,6 +311,25 @@
       "hits": 0,
       "description": "",
       "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":1,\"i\":\"3\"},\"id\":\"5c396400-6697-11e8-a67b-cd4cf123b2a5\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":1,\"w\":2,\"h\":8,\"i\":\"4\"},\"id\":\"9ee75900-6a80-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":5,\"y\":0,\"w\":5,\"h\":1,\"i\":\"5\"},\"id\":\"a5068c90-6a83-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Message Type (records)\",\"panelIndex\":\"6\",\"gridData\":{\"x\":5,\"y\":3,\"w\":3,\"h\":2,\"i\":\"6\"},\"id\":\"f35dd740-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Record Type (records)\",\"panelIndex\":\"7\",\"gridData\":{\"x\":2,\"y\":5,\"w\":3,\"h\":2,\"i\":\"7\"},\"id\":\"b3efe530-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Response Codes (records)\",\"panelIndex\":\"8\",\"gridData\":{\"x\":5,\"y\":5,\"w\":3,\"h\":2,\"i\":\"8\"},\"id\":\"3cf97d10-6443-11e8-9e8d-39632dc6b766\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"title\":\"DNS Servers (records)\",\"panelIndex\":\"10\",\"gridData\":{\"x\":2,\"y\":3,\"w\":3,\"h\":2,\"i\":\"10\"},\"id\":\"a2388d90-6a85-11e8-82af-6743288b8baf\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":8,\"y\":3,\"w\":4,\"h\":6,\"i\":\"11\"},\"id\":\"f7317b90-6a85-11e8-82af-6743288b8baf\",\"title\":\"Top Queries\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"12\",\"gridData\":{\"x\":2,\"y\":1,\"w\":2,\"h\":2,\"i\":\"12\"},\"id\":\"16650ad0-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"13\",\"gridData\":{\"x\":4,\"y\":1,\"w\":2,\"h\":2,\"i\":\"13\"},\"id\":\"21df6d60-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"14\",\"gridData\":{\"x\":6,\"y\":1,\"w\":2,\"h\":2,\"i\":\"14\"},\"id\":\"484fd200-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"16\",\"gridData\":{\"x\":8,\"y\":1,\"w\":2,\"h\":2,\"i\":\"16\"},\"id\":\"3127a0d0-6a87-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"17\",\"gridData\":{\"x\":10,\"y\":1,\"w\":2,\"h\":2,\"i\":\"17\"},\"id\":\"0223fe90-6a88-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "61eb53a0-6696-11e8-a67b-cd4cf123b2a5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Suricata: Statistics",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":10,\"y\":0,\"w\":2,\"h\":1,\"i\":\"2\"},\"id\":\"f3890650-648d-11e8-9e8d-39632dc6b766\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":0,\"w\":8,\"h\":1,\"i\":\"3\"},\"id\":\"804bdb70-6697-11e8-a67b-cd4cf123b2a5\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":8,\"y\":0,\"w\":2,\"h\":1,\"i\":\"4\"},\"id\":\"f05c2b10-6b09-11e8-82af-6743288b8baf\",\"title\":\"\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":0,\"y\":1,\"w\":6,\"h\":2,\"i\":\"5\"},\"id\":\"340bf770-6b08-11e8-82af-6743288b8baf\",\"title\":\"Decoder Traffic Volume\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":6,\"y\":1,\"w\":6,\"h\":2,\"i\":\"6\"},\"id\":\"dc43a050-6b08-11e8-82af-6743288b8baf\",\"title\":\"Memory Use\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":6,\"y\":3,\"w\":6,\"h\":2,\"i\":\"7\"},\"id\":\"f3137eb0-6b10-11e8-82af-6743288b8baf\",\"title\":\"Invalid Packets\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":6,\"y\":5,\"w\":6,\"h\":2,\"i\":\"8\"},\"id\":\"30ceccd0-6b13-11e8-82af-6743288b8baf\",\"title\":\"TCP Sessions\",\"type\":\"visualization\",\"version\":\"6.2.4\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":0,\"y\":5,\"w\":6,\"h\":2,\"i\":\"9\"},\"title\":\"Alerts Detected\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"3bfa7db0-6b14-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":3,\"w\":6,\"h\":2,\"i\":\"10\"},\"title\":\"Kernel Drops\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"cefaeff0-6b14-11e8-82af-6743288b8baf\"},{\"panelIndex\":\"11\",\"gridData\":{\"x\":0,\"y\":7,\"w\":6,\"h\":2,\"i\":\"11\"},\"title\":\"IP Versions\",\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"a7797730-6b19-11e8-82af-6743288b8baf\"},{\"title\":\"IP Protocols\",\"panelIndex\":\"12\",\"gridData\":{\"x\":6,\"y\":7,\"w\":6,\"h\":2,\"i\":\"12\"},\"version\":\"6.2.4\",\"type\":\"visualization\",\"id\":\"eac57150-6b1a-11e8-82af-6743288b8baf\"}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
       "version": 1,
       "timeRestore": false,
@@ -3755,6 +3755,159 @@
     "_source": {
       "title": "Suricata: DNS Alert Count (other) - TSVB (metric)",
       "visState": "{\"title\":\"Suricata: DNS Alert Count (other) - TSVB (metric)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"},{\"id\":\"69310560-64a2-11e8-99f1-8985c7aed077\",\"type\":\"cumulative_sum\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":\"0.6\",\"stacked\":\"none\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"label\":\"Other\",\"filter\":\"\",\"series_drop_last_bucket\":0}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata-*\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"annotations\":[{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:alert\",\"id\":\"3d25aed0-6493-11e8-99f1-8985c7aed077\",\"color\":\"#F00\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:critical\",\"id\":\"78f5d950-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(251,158,0,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:warning\",\"id\":\"e83c7b70-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(0,156,224,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1},{\"fields\":\"alert.category\",\"template\":\"{{alert.category}}\",\"index_pattern\":\"suricata-*\",\"query_string\":\"event.subtype: alert AND log.severity:notice\",\"id\":\"f7dda450-6496-11e8-99f1-8985c7aed077\",\"color\":\"rgba(171,20,158,1)\",\"time_field\":\"@timestamp\",\"icon\":\"fa-tag\",\"ignore_global_filters\":0,\"ignore_panel_filters\":1}],\"background_color_rules\":[{\"value\":0,\"id\":\"e7fcabf0-6499-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(153,153,153,1)\",\"opperator\":\"lte\"},{\"value\":1,\"id\":\"25c72730-649a-11e8-99f1-8985c7aed077\",\"background_color\":\"rgba(123,100,255,1)\",\"opperator\":\"gte\"}],\"filter\":\"alert.severity: [4 TO *] AND app_proto: dns\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "dc43a050-6b08-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - Memory Use - TSVB (stacked line)",
+      "visState": "{\"title\":\"Suricata: Stats - Memory Use - TSVB (stacked line)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.flow.memuse\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}\",\"label\":\"Flow\",\"axis_min\":\"0\"},{\"id\":\"14177740-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(104,188,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"14177741-6b09-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.tcp.memuse\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}\",\"label\":\"TCP\",\"axis_min\":\"0\"},{\"id\":\"3f949560-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(25,77,51,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"3f949561-6b09-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.tcp.reassembly_memuse\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}\",\"label\":\"TCP Reassembly\",\"axis_min\":\"0\"},{\"id\":\"5a61b2b0-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(250,40,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"5a61b2b1-6b09-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.http.memuse\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}\",\"label\":\"HTTP\",\"axis_min\":\"0\"},{\"id\":\"69461b40-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(123,100,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"69461b41-6b09-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.dns.memuse\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}\",\"label\":\"DNS\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "340bf770-6b08-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - Decoder Traffic Volume - TSVB (line)",
+      "visState": "{\"title\":\"Suricata: Stats - Decoder Traffic Volume - TSVB (line)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(4,70,108,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"max\",\"field\":\"stats.decoder.pkts\"},{\"unit\":\"1s\",\"id\":\"46962bf0-6b07-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":1,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Packets\",\"axis_min\":\"0\"},{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.bytes\"},{\"script\":\"params.bytes * 8\",\"id\":\"8fcb2b43-6b07-11e8-a574-99ddd28603da\",\"type\":\"calculation\",\"variables\":[{\"id\":\"8fcb2b42-6b07-11e8-a574-99ddd28603da\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"name\":\"bytes\"}]},{\"unit\":\"1s\",\"id\":\"8fcb2b44-6b07-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Bytes\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f05c2b10-6b09-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Statistics - input list",
+      "visState": "{\"title\":\"Suricata: Statistics - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"indexPattern\":\"suricata-*\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":250,\"order\":\"desc\"}}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "eac57150-6b1a-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - IP Protocols - TSVB (stacked line)",
+      "visState": "{\"title\":\"Suricata: Stats - IP Protocols - TSVB (stacked line)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.tcp\"},{\"unit\":\"1s\",\"id\":\"cc31e810-6b18-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}} pkts/s\",\"label\":\"TCP\",\"axis_min\":\"0\"},{\"id\":\"14177740-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"14177741-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.udp\"},{\"unit\":\"1s\",\"id\":\"0c19c510-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"14177741-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}} pkts/s\",\"label\":\"UDP\",\"axis_min\":\"0\"},{\"id\":\"3f949560-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(104,188,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"3f949561-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.icmpv4\"},{\"unit\":\"1s\",\"id\":\"4213abe0-6b19-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.icmpv6\"},{\"script\":\"params.icmpv4 + params.icmpv6\",\"id\":\"86ce0310-6b1a-11e8-a574-99ddd28603da\",\"type\":\"calculation\",\"variables\":[{\"id\":\"989c1e10-6b1a-11e8-a574-99ddd28603da\",\"name\":\"icmpv4\",\"field\":\"3f949561-6b09-11e8-a574-99ddd28603da\"},{\"id\":\"9da26ef0-6b1a-11e8-a574-99ddd28603da\",\"field\":\"4213abe0-6b19-11e8-a574-99ddd28603da\",\"name\":\"icmpv6\"}]},{\"unit\":\"1s\",\"id\":\"94938e20-6b1a-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"86ce0310-6b1a-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}} pkts/s\",\"label\":\"ICMP\",\"axis_min\":\"0\"},{\"id\":\"5a61b2b0-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(123,100,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"5a61b2b1-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.gre\"},{\"unit\":\"1s\",\"id\":\"6ef19280-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"5a61b2b1-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}} pkts/s\",\"label\":\"GRE\",\"axis_min\":\"0\"},{\"id\":\"69461b40-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(101,50,148,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"69461b41-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.sctp\"},{\"unit\":\"1s\",\"id\":\"7f2ead40-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"69461b41-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}} pkts/s\",\"label\":\"SCTP\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a7797730-6b19-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - IP Versions - TSVB (stacked line)",
+      "visState": "{\"title\":\"Suricata: Stats - IP Versions - TSVB (stacked line)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.ipv4\"},{\"unit\":\"1s\",\"id\":\"cc31e810-6b18-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"IPv4\",\"axis_min\":\"0\"},{\"id\":\"14177740-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"14177741-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.ipv4_in_ipv6\"},{\"unit\":\"1s\",\"id\":\"0c19c510-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"14177741-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"IPv4-in-IPv6\",\"axis_min\":\"0\"},{\"id\":\"3f949560-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(174,161,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"3f949561-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.ipv6\"},{\"unit\":\"1s\",\"id\":\"4213abe0-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"3f949561-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"IPv6\",\"axis_min\":\"0\"},{\"id\":\"5a61b2b0-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(123,100,255,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"5a61b2b1-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.ipv6_in_ipv6\"},{\"unit\":\"1s\",\"id\":\"6ef19280-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"5a61b2b1-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"IPv6-in-IPv6\",\"axis_min\":\"0\"},{\"id\":\"69461b40-6b09-11e8-a574-99ddd28603da\",\"color\":\"rgba(101,50,148,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"69461b41-6b09-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.teredo\"},{\"unit\":\"1s\",\"id\":\"7f2ead40-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"69461b41-6b09-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"Teredo\",\"axis_min\":\"0\"},{\"id\":\"64ecf1f0-6b17-11e8-a574-99ddd28603da\",\"color\":\"rgba(254,146,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"64ecf1f1-6b17-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.ipraw.invalid_ip_version\"},{\"unit\":\"1s\",\"id\":\"9332bb10-6b19-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"64ecf1f1-6b17-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"stacked\",\"value_template\":\"{{value}}/s\",\"label\":\"Invalid IP ver.\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "30ceccd0-6b13-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - TCP Sessions - TSVB (bar)",
+      "visState": "{\"title\":\"Suricata: Stats - TCP Sessions - TSVB (bar)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.tcp.sessions\"},{\"unit\":\"1s\",\"id\":\"bf8037a0-6b10-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Invalid Packets\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f3137eb0-6b10-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - Invalid Packets - TSVB (bar)",
+      "visState": "{\"title\":\"Suricata: Stats - Invalid Packets - TSVB (bar)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(254,146,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.decoder.invalid\"},{\"unit\":\"1s\",\"id\":\"bf8037a0-6b10-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Invalid Packets\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3bfa7db0-6b14-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - Alerts Detected - TSVB (bar)",
+      "visState": "{\"title\":\"Suricata: Stats - Alerts Detected - TSVB (bar)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(244,78,59,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.detect.alert\"},{\"unit\":\"1s\",\"id\":\"bf8037a0-6b10-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Alerts\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "cefaeff0-6b14-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+      "title": "Suricata: Stats - Kernel Drops - TSVB (bar)",
+      "visState": "{\"title\":\"Suricata: Stats - Kernel Drops - TSVB (bar)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(159,5,0,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"avg\",\"field\":\"stats.capture.kernel_drops\"},{\"unit\":\"1s\",\"id\":\"bf8037a0-6b10-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":\"0\",\"fill\":\"0.8\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Kernel Drops\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,

@@ -1,7 +1,7 @@
 {
   "order": 0,
   "version": 10000,
-  "index_patterns": "suricata_stats-0.0.3-*",
+  "index_patterns": "suricata_stats-1.0.0-*",
   "settings": {
     "index": {
       "number_of_shards": 3,

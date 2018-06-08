@@ -22,6 +22,7 @@ export SYNLITE_SURICATA_GEOIP_DB_PATH=/etc/logstash/synlite_suricata/geoipdbs
 export SYNLITE_SURICATA_GEOIP_CACHE_SIZE=8192
 export SYNLITE_SURICATA_GEOIP_LOOKUP=true
 export SYNLITE_SURICATA_ASN_LOOKUP=true
+export SYNLITE_SURICATA_CLEANUP_SIGS=false
 
 # Name resolution option
 export SYNLITE_SURICATA_RESOLVE_IP2HOST=false
