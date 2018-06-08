@@ -9,7 +9,7 @@ sýnesis&trade; Lite for Suricata is built using the Elastic Stack, including El
 Refer to the following compatibility chart to choose a release of sýnesis&trade; Lite for Suricata that is compatible with the version of the Elastic Stack you are using.
 
 Elastic Stack |  v1.x
-:---:|:---:|:---:|:---:
+:---:|:---:
 6.2 | &#10003;
 
 ## Suricata
