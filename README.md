@@ -59,7 +59,7 @@ Copy the `synlite_suricata` directory to the location of your Logstash configura
 Environment Variable | Description | Default Value
 --- | --- | ---
 SYNLITE_SURICATA_DICT_PATH | The path where the dictionary files are located | /etc/logstash/synlite_suricata/dictionaries
-SYNLITE_SURICATA__TEMPLATE_PATH | The path to where index templates are located | /etc/logstash/synlite_suricata/templates
+SYNLITE_SURICATA_TEMPLATE_PATH | The path to where index templates are located | /etc/logstash/synlite_suricata/templates
 SYNLITE_SURICATA_GEOIP_DB_PATH | The path where the GeoIP DBs are located | /etc/logstash/synlite_suricata/geoipdbs
 
 ### 4. Setup environment variable helper files
@@ -132,7 +132,7 @@ tail -f /var/log/logstash/logstash-plain.log
 ```
 Logstash takes a little time to start... BE PATIENT!
 
-Logstash setup is now complete. If you are receiving data from Filebeat, you should have both `suricata-` and `suricata-stats-` daily indices in Elasticsearch.
+Logstash setup is now complete. If you are receiving data from Filebeat, you should have both `suricata-` and `suricata_stats-` daily indices in Elasticsearch.
 
 ## Setting up Kibana
 An API (yet undocumented) is available to import and export Index Patterns. The JSON files which contains the Index Pattern configurations are `synlite_suricata.index_pattern.json` and `synlite_suricata_stats.index_pattern.json`. To setup the Index Patterns run the following commands:
