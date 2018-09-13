@@ -29,11 +29,11 @@ The sýnesis&trade; Lite for Suricata Logstash pipeline is the heart of the solu
 Follow these steps to ensure that Logstash and sýnesis&trade; Lite for Suricata are optimally configured to meet your needs. 
 
 ### 1. Set JVM heap size.
-To increase performance, sýnesis&trade; Lite for Suricata takes advantage of the caching and queueing features available in many of the Logstash plugins. These features increase the consumption of the JVM heap. The JVM heap space used by Logstash is configured in `jvm.options`. It is recommended that Logstash be given at least 2GB of JVM heap. This is configured in `jvm.options` as follows:
+To increase performance, sýnesis&trade; Lite for Suricata takes advantage of the caching and queueing features available in many of the Logstash plugins. These features increase the consumption of the JVM heap. Additionally the size of the IP reputation dictionary `ip_rep_basic.yml` can also increase heap usage. The JVM heap space used by Logstash is configured in `jvm.options`. It is recommended that Logstash be given 4GB of JVM heap. This is configured in `jvm.options` as follows:
 
 ```
--Xms2g
--Xmx2g
+-Xms4g
+-Xmx4g
 ```
 
 ### 2. Add and Update Required Logstash plugins
