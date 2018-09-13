@@ -1,4 +1,4 @@
-# sýnesis&trade; Lite for Suricata
+# sýnesis&trade; Lite for Suricata [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/robcowart)
 sýnesis&trade; Lite for Suricata provides basic log analytics for Suricata IDS/IPS using the Elastic Stack. It is a solution for the collection and analysis of Suricata "eve" JSON logs. This includes alerts, flows, http, dns, statistics and other log types.
 
 <img width="1163" alt="synesis_lite_suricata" src="https://user-images.githubusercontent.com/10326954/40805451-99e3f6e6-651e-11e8-9559-8e4535cd9b2c.png">
