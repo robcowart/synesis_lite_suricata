@@ -1,0 +1,187 @@
+#------------------------------------------------------------------------------
+# Copyright (C)2018 Robert Cowart
+# 
+# The contents of this file and/or repository are subject to the Robert Cowart
+# Public License (the "License") and may not be used or distributed except in
+# compliance with the License. You may obtain a copy of the License at:
+# 
+# http://www.koiossian.com/public/robert_cowart_public_license.txt
+# 
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+# the specific language governing rights and limitations under the License.
+# 
+# The Original Source Code was developed by Robert Cowart. Portions created by
+# Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
+#------------------------------------------------------------------------------
+
+# Configure the app-layer parsers.
+app-layer:
+  protocols:
+    krb5:
+      enabled: yes
+
+    ikev2:
+      enabled: yes
+
+    tls:
+      enabled: yes
+      detection-ports:
+        dp: 443, 6443, 9300
+
+      ja3-fingerprints: yes
+
+      # What to do when the encrypted communications start:
+      # - default: keep tracking TLS session, check for protocol anomalies, inspect tls_* keywords. Disables
+      #            inspection of unmodified 'content' signatures.
+      # - bypass:  stop processing this flow as much as possible. No further TLS parsing and inspection. Offload flow
+      #            bypass to kernel or hardware if possible.
+      # - full:    keep tracking and inspection as normal. Unmodified content keyword signatures are inspected as well.
+      #
+      # For best performance, select 'bypass'.
+      encrypt-handling: default
+
+    dcerpc:
+      enabled: yes
+    
+    ftp:
+      enabled: yes
+      #memcap: 64mb
+    
+    ssh:
+      enabled: yes
+    
+    smtp:
+      enabled: yes
+      mime:
+        decode-mime: yes
+        decode-base64: yes
+        decode-quoted-printable: yes
+        header-value-depth: 2000
+        extract-urls: yes
+        body-md5: yes
+
+      inspected-tracker:
+        content-limit: 100000
+        content-inspect-min-size: 32768
+        content-inspect-window: 4096
+
+    imap:
+      enabled: yes
+
+    msn:
+      enabled: yes
+
+    smb:
+      enabled: yes
+      detection-ports:
+        dp: 139, 445
+      #stream-depth: 0
+
+    nfs:
+      enabled: yes
+
+    tftp:
+      enabled: yes
+
+    dns:
+      #global-memcap: 16mb
+      #state-memcap: 512kb
+
+      request-flood: 500
+
+      tcp:
+        enabled: yes
+        detection-ports:
+          dp: 53
+      udp:
+        enabled: yes
+        detection-ports:
+          dp: 53
+    
+    http:
+      enabled: yes
+      #memcap: 64mb
+
+      libhtp:
+        default-config:
+          personality: IDS
+
+          # Can be specified in kb, mb, gb.  Just a number indicates it's in bytes.
+          request-body-limit: 100kb
+          response-body-limit: 100kb
+
+          # inspection limits
+          request-body-minimal-inspect-size: 32kb
+          request-body-inspect-window: 4kb
+          response-body-minimal-inspect-size: 40kb
+          response-body-inspect-window: 16kb
+
+          # response body decompression (0 disables)
+          response-body-decompress-layer-limit: 2
+
+          # auto will use http-body-inline mode in IPS mode, yes or no set it statically
+          http-body-inline: auto
+
+          # Decompress SWF files.
+          swf-decompression:
+            enabled: yes
+            type: both
+            compress-depth: 0
+            decompress-depth: 0
+
+          #randomize-inspection-sizes: yes
+          #randomize-inspection-range: 10
+
+          # decoding
+          double-decode-path: no
+          double-decode-query: no
+
+        server-config:
+          #- apache:
+          #    address: [192.168.1.0/24, 127.0.0.0/8, "::1"]
+          #    personality: Apache_2
+          #    # Can be specified in kb, mb, gb.  Just a number indicates
+          #    # it's in bytes.
+          #    request-body-limit: 4096
+          #    response-body-limit: 4096
+          #    double-decode-path: no
+          #    double-decode-query: no
+          #- iis7:
+          #    address:
+          #      - 192.168.0.0/24
+          #      - 192.168.10.0/24
+          #    personality: IIS_7_0
+          #    # Can be specified in kb, mb, gb.  Just a number indicates
+          #    # it's in bytes.
+          #    request-body-limit: 4096
+          #    response-body-limit: 4096
+          #    double-decode-path: no
+          #    double-decode-query: no
+
+    modbus:
+      request-flood: 500
+      enabled: yes
+      detection-ports:
+        dp: 502
+      stream-depth: 0
+
+    # DNP3
+    dnp3:
+      enabled: yes
+      detection-ports:
+        dp: 20000
+
+    # SCADA EtherNet/IP and CIP protocol support
+    enip:
+      enabled: no
+      detection-ports:
+        dp: 44818
+        sp: 44818
+
+    # Note: parser depends on Rust support
+    ntp:
+      enabled: yes
+
+    dhcp:
+      enabled: yes

@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+# Copyright (C)2018 Robert Cowart
+# 
+# The contents of this file and/or repository are subject to the Robert Cowart
+# Public License (the "License") and may not be used or distributed except in
+# compliance with the License. You may obtain a copy of the License at:
+# 
+# http://www.koiossian.com/public/robert_cowart_public_license.txt
+# 
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+# the specific language governing rights and limitations under the License.
+# 
+# The Original Source Code was developed by Robert Cowart. Portions created by
+# Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
+#------------------------------------------------------------------------------
+
+# Configure the type of alert (and other) logging.
+outputs:
+  # Extensible Event Format (nicknamed EVE) event log in JSON format
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      rotate-interval: day
+
+      metadata: yes
+
+      community-id: true
+      community-id-seed: 0
+
+      xff:
+        enabled: yes
+        mode: extra-data
+        deployment: reverse
+        header: X-Forwarded-For
+
+      types:
+        - alert:
+            metadata: yes
+            tagged-packets: yes
+
+        - http:
+            extended: yes
+            custom: [ accept, accept_charset, accept_datetime, accept_encoding, accept_language, accept_range, age,
+              allow, authorization, cache_control, connection, content_encoding, content_language, content_length,
+              content_location, content_md5, content_range, content_type, cookie, date, dnt, etag, expires, from,
+              last_modified, link, location, max_forwards, org_src_ip, origin, pragma, proxy_authenticate,
+              proxy_authorization, range, referrer, refresh, retry_after, server, set_cookie, te, trailer,
+              transfer_encoding, true_client_ip, upgrade, vary, via, warning, www_authenticate, x_authenticated_user,
+              x_bluecoat_via, x_flash_version, x_forwarded_proto, x_requested_with ]
+            dump-all-headers: [both]
+
+        - dns:
+            enabled: yes
+            version: 1
+
+            requests: yes
+            responses: yes
+
+            #formats: [detailed, grouped]
+            #types: [a, aaaa, cname, mx, ns, ptr, txt]
+
+        - tls:
+            extended: yes
+            session-resumption: yes
+            custom: [ subject, issuer, session_resumed, serial, fingerprint, sni, version, not_before, not_after,
+              certificate, chain, ja3 ]
+
+        - files:
+            force-magic: no
+            
+            # force logging of checksums, available hash functions are md5, sha1 and sha256
+            force-hash: [md5]
+
+        - drop:
+            alerts: yes
+            flows: all
+
+        - smtp:
+            extended: yes
+            custom: [ bcc, content-md5, date, importance, in-reply-to, message-id, organization, priority, received,
+              references, relays, reply-to, sensitivity, subject, user-agent, x-mailer, x-originating-ip ]
+            
+            # you need to set app-layer.protocols.smtp.mime.body-md5 to yes
+            md5: [ body, subject ]
+
+        - dnp3
+        - nfs
+        - smb
+        - tftp
+        - ikev2
+        - krb5
+
+        - dhcp:
+            enabled: yes
+            extended: yes
+
+        - ssh
+
+        - stats:
+            totals: yes
+            threads: no
+            deltas: no
+        
+        # bi-directional flows
+        - flow
+
+        # uni-directional flows
+        #- netflow
+
+        # Metadata event type.
+        #- metadata
