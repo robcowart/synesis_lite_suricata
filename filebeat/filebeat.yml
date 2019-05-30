@@ -15,7 +15,7 @@
 # Robert Cowart are Copyright (C)2018 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-filebeat.prospectors:
+filebeat.inputs:
 - type: log
   enabled: true
   paths:
