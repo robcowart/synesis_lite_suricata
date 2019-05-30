@@ -1,537 +1,1077 @@
 {
   "order": 0,
-  "version": 10001,
-  "index_patterns": "suricata_stats-1.0.1-*",
+  "version": 10100,
+  "index_patterns": "suricata_stats-1.1.0-*",
   "settings": {
     "index": {
       "number_of_shards": 3,
       "number_of_replicas": 1,
       "refresh_interval": "10s",
-      "codec": "best_compression"
+      "codec": "best_compression",
+      "mapping": {
+        "total_fields" : {
+          "limit": 8192
+        }
+      }
     }
   },
   "mappings": {
-    "_default_": {
-      "numeric_detection": true,
-      "dynamic_templates": [
-        {
-          "string_fields": {
-            "match_mapping_type": "string",
-            "match": "*",
-            "mapping": {
-              "type": "keyword"
+    "numeric_detection": true,
+    "dynamic_templates": [
+      {
+        "string_fields": {
+          "match_mapping_type": "string",
+          "match": "*",
+          "mapping": {
+            "type": "keyword"
+          }
+        }
+      }
+    ],
+    "properties": {
+      "@timestamp": {
+        "type": "date"
+      },
+      "@version": {
+        "type": "keyword"
+      },
+      "event": {
+        "dynamic": true,
+        "type": "object",
+        "properties": {
+          "host": {
+            "type": "keyword"
+          },
+          "subtype": {
+            "type": "keyword"
+          },
+          "type": {
+            "type": "keyword"
+          }
+        }
+      },
+      "node": {
+        "dynamic": true,
+        "type": "object",
+        "properties": {
+          "ipaddr": {
+            "type": "ip"
+          },
+          "hostname": {
+            "type": "keyword"
+          }
+        }
+      },
+      "stats": {
+        "dynamic": true,
+        "type": "object",
+        "properties": {
+          "app_layer": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "expectations": {
+                "type": "long"
+              },
+              "flow": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "dcerpc_tcp": {
+                    "type": "long"
+                  },
+                  "dcerpc_udp": {
+                    "type": "long"
+                  },
+                  "dhcp": {
+                    "type": "long"
+                  },
+                  "dnp3": {
+                    "type": "long"
+                  },
+                  "dns_tcp": {
+                    "type": "long"
+                  },
+                  "dns_udp": {
+                    "type": "long"
+                  },
+                  "failed_tcp": {
+                    "type": "long"
+                  },
+                  "failed_udp": {
+                    "type": "long"
+                  },
+                  "ftp": {
+                    "type": "long"
+                  },
+                  "ftp-data": {
+                    "type": "long"
+                  },
+                  "http": {
+                    "type": "long"
+                  },
+                  "ikev2": {
+                    "type": "long"
+                  },
+                  "imap": {
+                    "type": "long"
+                  },
+                  "krb5_tcp": {
+                    "type": "long"
+                  },
+                  "krb5_udp": {
+                    "type": "long"
+                  },
+                  "msn": {
+                    "type": "long"
+                  },
+                  "modbus": {
+                    "type": "long"
+                  },
+                  "nfs_tcp": {
+                    "type": "long"
+                  },
+                  "nfs_udp": {
+                    "type": "long"
+                  },
+                  "ntp": {
+                    "type": "long"
+                  },
+                  "smb": {
+                    "type": "long"
+                  },
+                  "smtp": {
+                    "type": "long"
+                  },
+                  "ssh": {
+                    "type": "long"
+                  },
+                  "tftp": {
+                    "type": "long"
+                  },
+                  "tls": {
+                    "type": "long"
+                  }
+                }
+              },
+              "tx": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "dcerpc_tcp": {
+                    "type": "long"
+                  },
+                  "dcerpc_udp": {
+                    "type": "long"
+                  },
+                  "dhcp": {
+                    "type": "long"
+                  },
+                  "dnp3": {
+                    "type": "long"
+                  },
+                  "dns_tcp": {
+                    "type": "long"
+                  },
+                  "dns_udp": {
+                    "type": "long"
+                  },
+                  "ftp": {
+                    "type": "long"
+                  },
+                  "ftp-data": {
+                    "type": "long"
+                  },
+                  "http": {
+                    "type": "long"
+                  },
+                  "ikev2": {
+                    "type": "long"
+                  },
+                  "krb5_tcp": {
+                    "type": "long"
+                  },
+                  "krb5_udp": {
+                    "type": "long"
+                  },
+                  "modbus": {
+                    "type": "long"
+                  },
+                  "nfs_tcp": {
+                    "type": "long"
+                  },
+                  "nfs_udp": {
+                    "type": "long"
+                  },
+                  "ntp": {
+                    "type": "long"
+                  },
+                  "smb": {
+                    "type": "long"
+                  },
+                  "smtp": {
+                    "type": "long"
+                  },
+                  "ssh": {
+                    "type": "long"
+                  },
+                  "tftp": {
+                    "type": "long"
+                  },
+                  "tls": {
+                    "type": "long"
+                  }
+                }
+              }
+            }
+          },
+          "capture": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "errors": {
+                "type": "long"
+              },
+              "kernel_drops": {
+                "type": "long"
+              },
+              "kernel_packets": {
+                "type": "long"
+              }
+            }
+          },
+          "defrag": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "ipv4": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "fragments": {
+                    "type": "long"
+                  },
+                  "reassembled": {
+                    "type": "long"
+                  },
+                  "timeouts": {
+                    "type": "long"
+                  }
+                }
+              },
+              "ipv6": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "fragments": {
+                    "type": "long"
+                  },
+                  "reassembled": {
+                    "type": "long"
+                  },
+                  "timeouts": {
+                    "type": "long"
+                  }
+                }
+              },
+              "max_frag_hits": {
+                "type": "long"
+              }
+            }
+          },
+          "decoder": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "avg_pkt_size": {
+                "type": "long"
+              },
+              "bytes": {
+                "type": "long"
+              },
+              "dce": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "pkt_too_small": {
+                    "type": "long"
+                  }
+                }
+              },
+              "erspan": {
+                "type": "long"
+              },
+              "ethernet": {
+                "type": "long"
+              },
+              "event": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "erspan": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "header_too_small": {
+                        "type": "long"
+                      },
+                      "unsupported_version": {
+                        "type": "long"
+                      },
+                      "too_many_vlan_layers": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ethernet": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "gre": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "wrong_version": {
+                        "type": "long"
+                      },
+                      "version0_recur": {
+                        "type": "long"
+                      },
+                      "version0_flags": {
+                        "type": "long"
+                      },
+                      "version0_hdr_too_big": {
+                        "type": "long"
+                      },
+                      "version0_malformed_sre_hdr": {
+                        "type": "long"
+                      },
+                      "version1_chksum": {
+                        "type": "long"
+                      },
+                      "version1_route": {
+                        "type": "long"
+                      },
+                      "version1_ssr": {
+                        "type": "long"
+                      },
+                      "version1_recur": {
+                        "type": "long"
+                      },
+                      "version1_flags": {
+                        "type": "long"
+                      },
+                      "version1_no_key": {
+                        "type": "long"
+                      },
+                      "version1_wrong_protocol": {
+                        "type": "long"
+                      },
+                      "version1_malformed_sre_hdr": {
+                        "type": "long"
+                      },
+                      "version1_hdr_too_big": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "icmpv4": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "unknown_type": {
+                        "type": "long"
+                      },
+                      "unknown_code": {
+                        "type": "long"
+                      },
+                      "ipv4_trunc_pkt": {
+                        "type": "long"
+                      },
+                      "ipv4_unknown_ver": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "icmpv6": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "unknown_type": {
+                        "type": "long"
+                      },
+                      "unknown_code": {
+                        "type": "long"
+                      },
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "ipv6_unknown_version": {
+                        "type": "long"
+                      },
+                      "ipv6_trunc_pkt": {
+                        "type": "long"
+                      },
+                      "mld_message_with_invalid_hl": {
+                        "type": "long"
+                      },
+                      "unassigned_type": {
+                        "type": "long"
+                      },
+                      "experimentation_type": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ieee8021ah": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "header_too_small": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ipraw": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "invalid_ip_version": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ipv4": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "hlen_too_small": {
+                        "type": "long"
+                      },
+                      "iplen_smaller_than_hlen": {
+                        "type": "long"
+                      },
+                      "trunc_pkt": {
+                        "type": "long"
+                      },
+                      "opt_invalid": {
+                        "type": "long"
+                      },
+                      "opt_invalid_len": {
+                        "type": "long"
+                      },
+                      "opt_malformed": {
+                        "type": "long"
+                      },
+                      "opt_pad_required": {
+                        "type": "long"
+                      },
+                      "opt_eol_required": {
+                        "type": "long"
+                      },
+                      "opt_duplicate": {
+                        "type": "long"
+                      },
+                      "opt_unknown": {
+                        "type": "long"
+                      },
+                      "wrong_ip_version": {
+                        "type": "long"
+                      },
+                      "icmpv6": {
+                        "type": "long"
+                      },
+                      "frag_pkt_too_large": {
+                        "type": "long"
+                      },
+                      "frag_overlap": {
+                        "type": "long"
+                      },
+                      "frag_ignored": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ipv6": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "trunc_pkt": {
+                        "type": "long"
+                      },
+                      "trunc_exthdr": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_fh": {
+                        "type": "long"
+                      },
+                      "exthdr_useless_fh": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_rh": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_hh": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_dh": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_ah": {
+                        "type": "long"
+                      },
+                      "exthdr_dupl_eh": {
+                        "type": "long"
+                      },
+                      "exthdr_invalid_optlen": {
+                        "type": "long"
+                      },
+                      "wrong_ip_version": {
+                        "type": "long"
+                      },
+                      "exthdr_ah_res_not_null": {
+                        "type": "long"
+                      },
+                      "hopopts_unknown_opt": {
+                        "type": "long"
+                      },
+                      "hopopts_only_padding": {
+                        "type": "long"
+                      },
+                      "dstopts_unknown_opt": {
+                        "type": "long"
+                      },
+                      "dstopts_only_padding": {
+                        "type": "long"
+                      },
+                      "rh_type_0": {
+                        "type": "long"
+                      },
+                      "zero_len_padn": {
+                        "type": "long"
+                      },
+                      "fh_non_zero_reserved_field": {
+                        "type": "long"
+                      },
+                      "data_after_none_header": {
+                        "type": "long"
+                      },
+                      "unknown_next_header": {
+                        "type": "long"
+                      },
+                      "icmpv4": {
+                        "type": "long"
+                      },
+                      "frag_pkt_too_large": {
+                        "type": "long"
+                      },
+                      "frag_overlap": {
+                        "type": "long"
+                      },
+                      "frag_ignored": {
+                        "type": "long"
+                      },
+                      "ipv4_in_ipv6_too_small": {
+                        "type": "long"
+                      },
+                      "ipv4_in_ipv6_wrong_version": {
+                        "type": "long"
+                      },
+                      "ipv6_in_ipv6_too_small": {
+                        "type": "long"
+                      },
+                      "ipv6_in_ipv6_wrong_version": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ltnull": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "unsupported_type": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "mpls": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "header_too_small": {
+                        "type": "long"
+                      },
+                      "bad_label_router_alert": {
+                        "type": "long"
+                      },
+                      "bad_label_implicit_null": {
+                        "type": "long"
+                      },
+                      "bad_label_reserved": {
+                        "type": "long"
+                      },
+                      "unknown_payload_type": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "ppp": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "vju_pkt_too_small": {
+                        "type": "long"
+                      },
+                      "ip4_pkt_too_small": {
+                        "type": "long"
+                      },
+                      "ip6_pkt_too_small": {
+                        "type": "long"
+                      },
+                      "wrong_type": {
+                        "type": "long"
+                      },
+                      "unsup_proto": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "pppoe": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "wrong_code": {
+                        "type": "long"
+                      },
+                      "malformed_tags": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "sctp": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "sll": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "tcp": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "hlen_too_small": {
+                        "type": "long"
+                      },
+                      "invalid_optlen": {
+                        "type": "long"
+                      },
+                      "opt_invalid_len": {
+                        "type": "long"
+                      },
+                      "opt_duplicate": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "udp": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "pkt_too_small": {
+                        "type": "long"
+                      },
+                      "hlen_too_small": {
+                        "type": "long"
+                      },
+                      "hlen_invalid": {
+                        "type": "long"
+                      }
+                    }
+                  },
+                  "vlan": {
+                    "dynamic": true,
+                    "type": "object",
+                    "properties": {
+                      "header_too_small": {
+                        "type": "long"
+                      },
+                      "unknown_type": {
+                        "type": "long"
+                      },
+                      "too_many_layers": {
+                        "type": "long"
+                      }
+                    }
+                  }
+                }
+              },
+              "gre": {
+                "type": "long"
+              },
+              "icmpv4": {
+                "type": "long"
+              },
+              "icmpv6": {
+                "type": "long"
+              },
+              "ieee8021ah": {
+                "type": "long"
+              },
+              "invalid": {
+                "type": "long"
+              },
+              "ipraw": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "invalid_ip_version": {
+                    "type": "long"
+                  }
+                }
+              },
+              "ipv4": {
+                "type": "long"
+              },
+              "ipv4_in_ipv6": {
+                "type": "long"
+              },
+              "ipv6": {
+                "type": "long"
+              },
+              "ipv6_in_ipv6": {
+                "type": "long"
+              },
+              "ltnull": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "pkt_too_small": {
+                    "type": "long"
+                  },
+                  "unsupported_type": {
+                    "type": "long"
+                  }
+                }
+              },
+              "max_pkt_size": {
+                "type": "long"
+              },
+              "mpls": {
+                "type": "long"
+              },
+              "null": {
+                "type": "long"
+              },
+              "pkts": {
+                "type": "long"
+              },
+              "ppp": {
+                "type": "long"
+              },
+              "pppoe": {
+                "type": "long"
+              },
+              "raw": {
+                "type": "long"
+              },
+              "sctp": {
+                "type": "long"
+              },
+              "sll": {
+                "type": "long"
+              },
+              "tcp": {
+                "type": "long"
+              },
+              "teredo": {
+                "type": "long"
+              },
+              "udp": {
+                "type": "long"
+              },
+              "vlan": {
+                "type": "long"
+              },
+              "vlan_qinq": {
+                "type": "long"
+              }
+            }
+          },
+          "detect": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "alert": {
+                "type": "long"
+              },
+              "engines": {
+                "dynamic": true,
+                "type": "nested",
+                "properties": {
+                  "id": {
+                    "type": "long"
+                  },
+                  "last_reload": {
+                    "type": "date"
+                  },
+                  "rules_loaded": {
+                    "type": "long"
+                  },
+                  "rules_failed": {
+                    "type": "long"
+                  }
+                }
+              }
+            }
+          },
+          "dns": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "memcap_global": {
+                "type": "long"
+              },
+              "memcap_state": {
+                "type": "long"
+              },
+              "memuse": {
+                "type": "long"
+              }
+            }
+          },
+          "file_store": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "open_files": {
+                "type": "long"
+              }
+            }
+          },
+          "flow": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "emerg_mode_entered": {
+                "type": "long"
+              },
+              "emerg_mode_over": {
+                "type": "long"
+              },
+              "icmpv4": {
+                "type": "long"
+              },
+              "icmpv6": {
+                "type": "long"
+              },
+              "memcap": {
+                "type": "long"
+              },
+              "memuse": {
+                "type": "long"
+              },
+              "spare": {
+                "type": "long"
+              },
+              "tcp": {
+                "type": "long"
+              },
+              "tcp_reuse": {
+                "type": "long"
+              },
+              "udp": {
+                "type": "long"
+              }
+            }
+          },
+          "flow_mgr": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "bypassed_pruned": {
+                "type": "long"
+              },
+              "closed_pruned": {
+                "type": "long"
+              },
+              "est_pruned": {
+                "type": "long"
+              },
+              "flows_checked": {
+                "type": "long"
+              },
+              "flows_notimeout": {
+                "type": "long"
+              },
+              "flows_removed": {
+                "type": "long"
+              },
+              "flows_timeout": {
+                "type": "long"
+              },
+              "flows_timeout_inuse": {
+                "type": "long"
+              },
+              "new_pruned": {
+                "type": "long"
+              },
+              "rows_busy": {
+                "type": "long"
+              },
+              "rows_checked": {
+                "type": "long"
+              },
+              "rows_empty": {
+                "type": "long"
+              },
+              "rows_maxlen": {
+                "type": "long"
+              },
+              "rows_skipped": {
+                "type": "long"
+              }
+            }
+          },
+          "ftp": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "memuse": {
+                "type": "long"
+              },
+              "memcap": {
+                "type": "long"
+              }
+            }
+          },
+          "http": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "memcap": {
+                "type": "long"
+              },
+              "memuse": {
+                "type": "long"
+              }
+            }
+          },
+          "tcp": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "insert_data_normal_fail": {
+                "type": "long"
+              },
+              "insert_data_overlap_fail": {
+                "type": "long"
+              },
+              "insert_list_fail": {
+                "type": "long"
+              },
+              "invalid_checksum": {
+                "type": "long"
+              },
+              "no_flow": {
+                "type": "long"
+              },
+              "memuse": {
+                "type": "long"
+              },
+              "midstream_pickups": {
+                "type": "long"
+              },
+              "overlap": {
+                "type": "long"
+              },
+              "overlap_diff_data": {
+                "type": "long"
+              },
+              "pkt_on_wrong_thread": {
+                "type": "long"
+              },
+              "pseudo": {
+                "type": "long"
+              },
+              "pseudo_failed": {
+                "type": "long"
+              },
+              "reassembly_gap": {
+                "type": "long"
+              },
+              "reassembly_memuse": {
+                "type": "long"
+              },
+              "rst": {
+                "type": "long"
+              },
+              "segment_memcap_drop": {
+                "type": "long"
+              },
+              "sessions": {
+                "type": "long"
+              },
+              "ssn_memcap_drop": {
+                "type": "long"
+              },
+              "stream_depth_reached": {
+                "type": "long"
+              },
+              "syn": {
+                "type": "long"
+              },
+              "synack": {
+                "type": "long"
+              }
             }
           }
         }
-      ],
-      "properties": {
-        "@timestamp": {
-          "type": "date"
-        },
-        "@version": {
-          "type": "keyword"
-        },
-        "event": {
-          "dynamic": true,
-          "type": "object",
-          "properties": {
-            "host": {
-              "type": "keyword"
-            },
-            "subtype": {
-              "type": "keyword"
-            },
-            "type": {
-              "type": "keyword"
-            }
-          }
-        },
-        "node": {
-          "dynamic": true,
-          "type": "object",
-          "properties": {
-            "ipaddr": {
-              "type": "ip"
-            },
-            "hostname": {
-              "type": "keyword"
-            }
-          }
-        },
-        "stats": {
-          "dynamic": true,
-          "type": "object",
-          "properties": {
-            "app_layer": {
-          "dynamic": true,
-          "type": "object",
-          "properties": {
-            "flow": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "dcerpc_tcp": {
-                  "type": "long"
-                },
-                "dcerpc_udp": {
-                  "type": "long"
-                },
-                "dnp3": {
-                  "type": "long"
-                },
-                "dns_tcp": {
-                  "type": "long"
-                },
-                "dns_udp": {
-                  "type": "long"
-                },
-                "failed_tcp": {
-                  "type": "long"
-                },
-                "failed_udp": {
-                  "type": "long"
-                },
-                "ftp": {
-                  "type": "long"
-                },
-                "http": {
-                  "type": "long"
-                },
-                "imap": {
-                  "type": "long"
-                },
-                "msn": {
-                  "type": "long"
-                },
-                "modbus": {
-                  "type": "long"
-                },
-                "smb": {
-                  "type": "long"
-                },
-                "smtp": {
-                  "type": "long"
-                },
-                "ssh": {
-                  "type": "long"
-                },
-                "tls": {
-                  "type": "long"
-                }
-              }
-            },
-            "tx": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "dcerpc_tcp": {
-                  "type": "long"
-                },
-                "dcerpc_udp": {
-                  "type": "long"
-                },
-                "dnp3": {
-                  "type": "long"
-                },
-                "dns_tcp": {
-                  "type": "long"
-                },
-                "dns_udp": {
-                  "type": "long"
-                },
-                "ftp": {
-                  "type": "long"
-                },
-                "http": {
-                  "type": "long"
-                },
-                "modbus": {
-                  "type": "long"
-                },
-                "smb": {
-                  "type": "long"
-                },
-                "smtp": {
-                  "type": "long"
-                },
-                "ssh": {
-                  "type": "long"
-                },
-                "tls": {
-                  "type": "long"
-                }
-              }
-            }
-          }
-            },
-            "capture": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "kernel_drops": {
-                  "type": "long"
-                },
-                "kernel_packets": {
-                  "type": "long"
-                }
-              }
-            },
-            "defrag": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "ipv4": {
-                  "dynamic": true,
-                  "type": "object",
-                  "properties": {
-                    "fragments": {
-                      "type": "long"
-                    },
-                    "reassembled": {
-                      "type": "long"
-                    },
-                    "timeouts": {
-                      "type": "long"
-                    }
-                  }
-                },
-                "ipv6": {
-                  "dynamic": true,
-                  "type": "object",
-                  "properties": {
-                    "fragments": {
-                      "type": "long"
-                    },
-                    "reassembled": {
-                      "type": "long"
-                    },
-                    "timeouts": {
-                      "type": "long"
-                    }
-                  }
-                },
-                "max_frag_hits": {
-                  "type": "long"
-                }
-              }
-            },
-            "decoder": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "avg_pkt_size": {
-                  "type": "long"
-                },
-                "bytes": {
-                  "type": "long"
-                },
-                "dce": {
-                  "dynamic": true,
-                  "type": "object",
-                  "properties": {
-                    "pkt_too_small": {
-                      "type": "long"
-                    }
-                  }
-                },
-                "erspan": {
-                  "type": "long"
-                },
-                "ethernet": {
-                  "type": "long"
-                },
-                "gre": {
-                  "type": "long"
-                },
-                "icmpv4": {
-                  "type": "long"
-                },
-                "icmpv6": {
-                  "type": "long"
-                },
-                "ieee8021ah": {
-                  "type": "long"
-                },
-                "invalid": {
-                  "type": "long"
-                },
-                "ipraw": {
-                  "dynamic": true,
-                  "type": "object",
-                  "properties": {
-                    "invalid_ip_version": {
-                      "type": "long"
-                    }
-                  }
-                },
-                "ipv4": {
-                  "type": "long"
-                },
-                "ipv4_in_ipv6": {
-                  "type": "long"
-                },
-                "ipv6": {
-                  "type": "long"
-                },
-                "ipv6_in_ipv6": {
-                  "type": "long"
-                },
-                "ltnull": {
-                  "dynamic": true,
-                  "type": "object",
-                  "properties": {
-                    "pkt_too_small": {
-                      "type": "long"
-                    },
-                    "unsupported_type": {
-                      "type": "long"
-                    }
-                  }
-                },
-                "max_pkt_size": {
-                  "type": "long"
-                },
-                "mpls": {
-                  "type": "long"
-                },
-                "null": {
-                  "type": "long"
-                },
-                "pkts": {
-                  "type": "long"
-                },
-                "ppp": {
-                  "type": "long"
-                },
-                "pppoe": {
-                  "type": "long"
-                },
-                "raw": {
-                  "type": "long"
-                },
-                "sctp": {
-                  "type": "long"
-                },
-                "sll": {
-                  "type": "long"
-                },
-                "tcp": {
-                  "type": "long"
-                },
-                "teredo": {
-                  "type": "long"
-                },
-                "udp": {
-                  "type": "long"
-                },
-                "vlan": {
-                  "type": "long"
-                },
-                "vlan_qinq": {
-                  "type": "long"
-                }
-              }
-            },
-            "detect": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "alert": {
-                  "type": "long"
-                }
-              }
-            },
-            "dns": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "memcap_global": {
-                  "type": "long"
-                },
-                "memcap_state": {
-                  "type": "long"
-                },
-                "memuse": {
-                  "type": "long"
-                }
-              }
-            },
-            "file_store": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "open_files": {
-                  "type": "long"
-                }
-              }
-            },
-            "flow": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "emerg_mode_entered": {
-                  "type": "long"
-                },
-                "emerg_mode_over": {
-                  "type": "long"
-                },
-                "icmpv4": {
-                  "type": "long"
-                },
-                "icmpv6": {
-                  "type": "long"
-                },
-                "memcap": {
-                  "type": "long"
-                },
-                "memuse": {
-                  "type": "long"
-                },
-                "spare": {
-                  "type": "long"
-                },
-                "tcp": {
-                  "type": "long"
-                },
-                "tcp_reuse": {
-                  "type": "long"
-                },
-                "udp": {
-                  "type": "long"
-                }
-              }
-            },
-            "flow_mgr": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "bypassed_pruned": {
-                  "type": "long"
-                },
-                "closed_pruned": {
-                  "type": "long"
-                },
-                "est_pruned": {
-                  "type": "long"
-                },
-                "flows_checked": {
-                  "type": "long"
-                },
-                "flows_notimeout": {
-                  "type": "long"
-                },
-                "flows_removed": {
-                  "type": "long"
-                },
-                "flows_timeout": {
-                  "type": "long"
-                },
-                "flows_timeout_inuse": {
-                  "type": "long"
-                },
-                "new_pruned": {
-                  "type": "long"
-                },
-                "rows_busy": {
-                  "type": "long"
-                },
-                "rows_checked": {
-                  "type": "long"
-                },
-                "rows_empty": {
-                  "type": "long"
-                },
-                "rows_maxlen": {
-                  "type": "long"
-                },
-                "rows_skipped": {
-                  "type": "long"
-                }
-              }
-            },
-            "http": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "memcap": {
-                  "type": "long"
-                },
-                "memuse": {
-                  "type": "long"
-                }
-              }
-            },
-            "tcp": {
-              "dynamic": true,
-              "type": "object",
-              "properties": {
-                "insert_data_normal_fail": {
-                  "type": "long"
-                },
-                "insert_data_overlap_fail": {
-                  "type": "long"
-                },
-                "insert_list_fail": {
-                  "type": "long"
-                },
-                "invalid_checksum": {
-                  "type": "long"
-                },
-                "no_flow": {
-                  "type": "long"
-                },
-                "memuse": {
-                  "type": "long"
-                },
-                "overlap": {
-                  "type": "long"
-                },
-                "overlap_diff_data": {
-                  "type": "long"
-                },
-                "pseudo": {
-                  "type": "long"
-                },
-                "pseudo_failed": {
-                  "type": "long"
-                },
-                "reassembly_gap": {
-                  "type": "long"
-                },
-                "reassembly_memuse": {
-                  "type": "long"
-                },
-                "rst": {
-                  "type": "long"
-                },
-                "segment_memcap_drop": {
-                  "type": "long"
-                },
-                "sessions": {
-                  "type": "long"
-                },
-                "ssn_memcap_drop": {
-                  "type": "long"
-                },
-                "stream_depth_reached": {
-                  "type": "long"
-                },
-                "syn": {
-                  "type": "long"
-                },
-                "synack": {
-                  "type": "long"
-                }
-              }
-            }
-          }
-        },
-        "uptime": {
-          "type": "long"
-        },
-        "tags": {
-          "type": "keyword"
-        }
+      },
+      "uptime": {
+        "type": "long"
+      },
+      "tags": {
+        "type": "keyword"
       }
     }
   }
