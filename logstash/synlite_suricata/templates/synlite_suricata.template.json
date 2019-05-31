@@ -206,6 +206,21 @@
           
         }
       },
+      "anomaly": {
+        "dynamic": true,
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "keyword"
+          },
+          "event": {
+            "type": "keyword"
+          },
+          "type": {
+            "type": "keyword"
+          }
+        }
+      },
       "app_proto": {
         "type": "keyword"
       },
@@ -956,9 +971,33 @@
                 "type": "long"
               },
               "req": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "frag_cnt": {
+                    "type": "long"
+                  },
+                  "stub_data_size": {
+                    "type": "long"
+                  }
+                }
+              },
+              "request": {
                 "type": "keyword"
               },
               "res": {
+                "dynamic": true,
+                "type": "object",
+                "properties": {
+                  "frag_cnt": {
+                    "type": "long"
+                  },
+                  "stub_data_size": {
+                    "type": "long"
+                  }
+                }
+              },
+              "response": {
                 "type": "keyword"
               },
               "stub_data_size": {
@@ -1177,6 +1216,18 @@
             "type": "keyword"
           },
           "ja3": {
+            "dynamic": true,
+            "type": "object",
+            "properties": {
+              "hash": {
+                "type": "keyword"
+              },
+              "string": {
+                "type": "keyword"
+              }
+            }
+          },
+          "ja3s": {
             "dynamic": true,
             "type": "object",
             "properties": {
