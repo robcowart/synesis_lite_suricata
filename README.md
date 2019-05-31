@@ -165,15 +165,7 @@ Logstash setup is now complete. If you are receiving data from Filebeat, you sho
 
 ## Setting up Kibana
 
-An API (yet undocumented) is available to import and export Index Patterns. The JSON files which contains the Index Pattern configurations are `synlite_suricata.index_pattern.json` and `synlite_suricata_stats.index_pattern.json`. To setup the Index Patterns run the following commands:
-
-```text
-curl -X POST -u USERNAME:PASSWORD http://KIBANASERVER:5601/api/saved_objects/index-pattern/suricata-* -H "Content-Type: application/json" -H "kbn-xsrf: true" -d @/PATH/TO/synlite_suricata.index_pattern.json
-
-curl -X POST -u USERNAME:PASSWORD http://KIBANASERVER:5601/api/saved_objects/index-pattern/suricata_stats-* -H "Content-Type: application/json" -H "kbn-xsrf: true" -d @/PATH/TO/synlite_suricata_stats.index_pattern.json
-```
-
-Finally the vizualizations and dashboards can be loaded into Kibana by importing the `synlite_suricata.dashboards.json` file from within the Kibana UI. This is done in the Kibana `Management` app under `Saved Objects`.
+The vizualizations and dashboards can be loaded into Kibana by importing the `synlite_suricata.kibana.7.1.x.json` file from within the Kibana UI. This is done in the Kibana `Management` app under `Saved Objects`.
 
 ### Recommended Kibana Advanced Settings
 
@@ -325,117 +317,99 @@ SYNLITE_SURICATA_BEATS_PORT | The TCP port on which to listen for Filebeat messa
 
 I recommend configuring `timepicker:quickRanges` for the setting below. The result will look like this:
 
-![screen shot 2018-05-17 at 19 57 03](https://user-images.githubusercontent.com/10326954/40195016-8d33cac4-5a0c-11e8-976f-cc6559e4439a.png)
+![timepicker:quickRanges](https://user-images.githubusercontent.com/10326954/57178139-9a8d8500-6e6c-11e9-8539-db61a81b321b.png)
 
 ```text
 [
   {
-    "from": "now/d",
-    "to": "now/d",
-    "display": "Today",
-    "section": 0
-  },
-  {
-    "from": "now/w",
-    "to": "now/w",
-    "display": "This week",
-    "section": 0
-  },
-  {
-    "from": "now/M",
-    "to": "now/M",
-    "display": "This month",
-    "section": 0
-  },
-  {
-    "from": "now/d",
-    "to": "now",
-    "display": "Today so far",
-    "section": 0
-  },
-  {
-    "from": "now/w",
-    "to": "now",
-    "display": "Week to date",
-    "section": 0
-  },
-  {
-    "from": "now/M",
-    "to": "now",
-    "display": "Month to date",
-    "section": 0
-  },
-  {
     "from": "now-15m",
     "to": "now",
-    "display": "Last 15 minutes",
-    "section": 1
+    "display": "Last 15 minutes"
   },
   {
     "from": "now-30m",
     "to": "now",
-    "display": "Last 30 minutes",
-    "section": 1
+    "display": "Last 30 minutes"
   },
   {
     "from": "now-1h",
     "to": "now",
-    "display": "Last 1 hour",
-    "section": 1
+    "display": "Last 1 hour"
   },
   {
     "from": "now-2h",
     "to": "now",
-    "display": "Last 2 hours",
-    "section": 1
+    "display": "Last 2 hours"
   },
   {
     "from": "now-4h",
     "to": "now",
-    "display": "Last 4 hours",
-    "section": 2
+    "display": "Last 4 hours"
   },
   {
     "from": "now-12h",
     "to": "now",
-    "display": "Last 12 hours",
-    "section": 2
+    "display": "Last 12 hours"
   },
   {
     "from": "now-24h",
     "to": "now",
-    "display": "Last 24 hours",
-    "section": 2
+    "display": "Last 24 hours"
   },
   {
     "from": "now-48h",
     "to": "now",
-    "display": "Last 48 hours",
-    "section": 2
+    "display": "Last 48 hours"
   },
   {
     "from": "now-7d",
     "to": "now",
-    "display": "Last 7 days",
-    "section": 3
+    "display": "Last 7 days"
   },
   {
     "from": "now-30d",
     "to": "now",
-    "display": "Last 30 days",
-    "section": 3
+    "display": "Last 30 days"
   },
   {
     "from": "now-60d",
     "to": "now",
-    "display": "Last 60 days",
-    "section": 3
+    "display": "Last 60 days"
   },
   {
     "from": "now-90d",
     "to": "now",
-    "display": "Last 90 days",
-    "section": 3
+    "display": "Last 90 days"
+  },
+  {
+    "from": "now/d",
+    "to": "now/d",
+    "display": "Today"
+  },
+  {
+    "from": "now/w",
+    "to": "now/w",
+    "display": "This week"
+  },
+  {
+    "from": "now/M",
+    "to": "now/M",
+    "display": "This month"
+  },
+  {
+    "from": "now/d",
+    "to": "now",
+    "display": "Today so far"
+  },
+  {
+    "from": "now/w",
+    "to": "now",
+    "display": "Week to date"
+  },
+  {
+    "from": "now/M",
+    "to": "now",
+    "display": "Month to date"
   }
 ]
 ```
