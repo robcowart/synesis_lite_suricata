@@ -33,6 +33,10 @@ search.max_buckets: 100000
 
 At high ingest rates (>5K logs/s), or for data redundancy and high availability, a multi-node cluster is recommended.
 
+Additionally local SSD storage should be considered as _*mandatory*_! For an in-depth look at how different storage options compare, and in particular how bad HDD-based storage is for Elasticsearch (even in multi-drive RAID0 configurations) you should watch this video...
+
+[![es_storage_thumbnail](https://user-images.githubusercontent.com/10326954/73439503-00516380-4350-11ea-961b-4a464e7a27b2.png)](https://youtu.be/nKUpfJCBiS4)
+
 ## Filebeat
 
 As Suricata is usually run on one or more Linux servers, the solution includes both [Filebeat](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-overview.html) and [Logstash](https://www.elastic.co/guide/en/logstash/current/introduction.html). Filebeat is used to collect the log data on the system where Suricata is running, and ships it to Logstash via the [beats](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-beats.html) input. An example Filebeat log input configuration is included in `filebeat/filebeat.yml`.
