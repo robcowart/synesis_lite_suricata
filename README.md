@@ -28,10 +28,14 @@ Previous versions of the Elastic Stack required no special configuration for Ela
 
 ```text
 indices.query.bool.max_clause_count: 8192
-search.max_buckets: 100000
+search.max_buckets: 250000
 ```
 
 At high ingest rates (>5K logs/s), or for data redundancy and high availability, a multi-node cluster is recommended.
+
+If you are new to the Elastic Stack, this video goes beyond a simple default installation of Elasticsearch and Kibana. It discusses real-world best practices for hardware sizing and configuration, providing production-level performance and reliability.
+
+[![es_install_thumbnail](https://user-images.githubusercontent.com/10326954/75727859-58301100-5ce6-11ea-9ed7-2c93bb1df111.png)](https://youtu.be/gZb7HpVOges)
 
 Additionally local SSD storage should be considered as _*mandatory*_! For an in-depth look at how different storage options compare, and in particular how bad HDD-based storage is for Elasticsearch (even in multi-drive RAID0 configurations) you should watch this video...
 
